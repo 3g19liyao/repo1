@@ -2,7 +2,7 @@ char * convert(char * s, int numRows)
 {
     int len=strlen(s);
     int tab=2*numRows-2;
-    if(len<=numRows || tab==0)
+    if(len<=numRows ||tab==0)
     return s;
     char* res=(char *)malloc(sizeof(char *)*(len+1));
     int num=0;
